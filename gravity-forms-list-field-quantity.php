@@ -46,7 +46,7 @@ function populate_quantity($form){
 				// n represents the number of table columns within the list field as defined above
 				$chunks = array_chunk($listdata, $table_columns);
 
-				// Count how many rows are returned. This is now the quanity!
+				// Count how many rows are returned. This is now the quantity!
 				$quantity = count($chunks);
 			}
 
