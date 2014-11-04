@@ -60,7 +60,7 @@ function populate_quantity($form){
 			if ($field["type"] == "product") {
 
 				// Display the quantity to the user as a description
-				$field["description"] = "x" . $quantity . $field["label"] . "(s) counted.";
+				$field["description"] = "x" . $quantity . " " . $field["label"] . "(s) counted.";
 
 			}
 
